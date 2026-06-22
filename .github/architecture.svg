@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="260">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="260" rx="12" fill="url(#bg)"/>
+
+  <!-- cPanel Server box -->
+  <rect x="30" y="30" width="180" height="120" rx="10" fill="#1a1f2e" stroke="#30363d" stroke-width="1.5"/>
+  <text x="120" y="65" text-anchor="middle" fill="#4ab8e8" font-family="system-ui" font-size="14" font-weight="600">cPanel Server</text>
+  <text x="120" y="85" text-anchor="middle" fill="#9ca3af" font-family="monospace" font-size="10">Network Traffic</text>
+  <text x="120" y="105" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="9">Shared Hosting</text>
+  <text x="120" y="120" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="9">Game / Ecommerce</text>
+
+  <!-- Arrow: cPanel -> ftagent -->
+  <line x1="215" y1="90" x2="275" y2="90" stroke="#00d4aa" stroke-width="2" stroke-dasharray="6,3"/>
+  <polygon points="275,85 285,90 275,95" fill="#00d4aa"/>
+  <text x="250" y="78" text-anchor="middle" fill="#00d4aa" font-family="monospace" font-size="9">local</text>
+
+  <!-- ftagent box -->
+  <rect x="290" y="30" width="180" height="120" rx="10" fill="#1a1f2e" stroke="#00d4aa" stroke-width="1.5"/>
+  <text x="380" y="65" text-anchor="middle" fill="#00d4aa" font-family="system-ui" font-size="14" font-weight="600">ftagent</text>
+  <text x="380" y="85" text-anchor="middle" fill="#9ca3af" font-family="monospace" font-size="10">systemd service</text>
+  <text x="380" y="105" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="9">DDoS Detection</text>
+  <text x="380" y="120" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="9">Attack Classification</text>
+
+  <!-- Arrow: ftagent -> Dashboard -->
+  <line x1="475" y1="90" x2="535" y2="90" stroke="#4ab8e8" stroke-width="2" stroke-dasharray="6,3"/>
+  <polygon points="535,85 545,90 535,95" fill="#4ab8e8"/>
+  <text x="510" y="78" text-anchor="middle" fill="#4ab8e8" font-family="monospace" font-size="9">HTTPS</text>
+
+  <!-- Dashboard box -->
+  <rect x="550" y="30" width="140" height="120" rx="10" fill="#1a1f2e" stroke="#4ab8e8" stroke-width="1.5"/>
+  <text x="620" y="65" text-anchor="middle" fill="#4ab8e8" font-family="system-ui" font-size="14" font-weight="600">Flowtriq</text>
+  <text x="620" y="85" text-anchor="middle" fill="#9ca3af" font-family="monospace" font-size="10">Dashboard</text>
+  <text x="620" y="105" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="9">Alerts</text>
+  <text x="620" y="120" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="9">Incidents</text>
+
+  <!-- Arrow: cPanel -> WHM Plugin (downward) -->
+  <line x1="120" y1="155" x2="120" y2="185" stroke="#00d4aa" stroke-width="2" stroke-dasharray="6,3"/>
+  <polygon points="115,185 120,195 125,185" fill="#00d4aa"/>
+
+  <!-- WHM Plugin box -->
+  <rect x="30" y="200" width="180" height="45" rx="10" fill="#1a1f2e" stroke="#00d4aa" stroke-width="1.5"/>
+  <text x="120" y="221" text-anchor="middle" fill="#00d4aa" font-family="system-ui" font-size="13" font-weight="600">WHM Plugin</text>
+  <text x="120" y="237" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="9">Status Panel</text>
+</svg>
