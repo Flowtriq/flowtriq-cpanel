@@ -443,8 +443,8 @@ $status_label = ($status === 'active') ? 'Running' : (($status === 'inactive') ?
 <div class="ft-footer">
     Flowtriq DDoS Detection &middot;
     <a href="https://flowtriq.com" target="_blank">Website</a> &middot;
-    <a href="https://docs.flowtriq.com" target="_blank">Documentation</a> &middot;
-    <a href="https://discord.gg/flowtriq" target="_blank">Discord</a>
+    <a href="https://flowtriq.com/docs" target="_blank">Documentation</a> &middot;
+    <a href="https://discord.gg/SsTWMYuyGG" target="_blank">Discord</a>
 </div>
 
 </body>

@@ -17,6 +17,10 @@
   <a href="https://discord.gg/SsTWMYuyGG"><img src="https://img.shields.io/badge/discord-join-5865F2?style=flat-square" alt="Discord"></a>
 </p>
 
+<p align="center">
+  <b><a href="https://flowtriq.com/integrations/cpanel">Integration Guide</a></b> | <b><a href="https://flowtriq.com/docs">Documentation</a></b> | <b><a href="https://flowtriq.com/signup">Sign Up</a></b>
+</p>
+
 ---
 
 <p align="center">
@@ -188,7 +192,7 @@ Yes, as long as your VPS runs cPanel/WHM. Works on dedicated servers and VPS ali
 <details>
 <summary><b>What attacks does it detect?</b></summary>
 
-Volumetric floods (UDP, ICMP), SYN floods, DNS amplification, NTP reflection, HTTP floods, and dozens of other attack vectors. See the [Flowtriq docs](https://docs.flowtriq.com) for the full list.
+Volumetric floods (UDP, ICMP), SYN floods, DNS amplification, NTP reflection, HTTP floods, and dozens of other attack vectors. See the [Flowtriq docs](https://flowtriq.com/docs) for the full list.
 
 </details>
 
@@ -213,10 +217,18 @@ systemctl restart ftagent
 
 - [Flowtriq Website](https://flowtriq.com)
 - [Dashboard](https://app.flowtriq.com)
-- [Documentation](https://docs.flowtriq.com)
+- [Documentation](https://flowtriq.com/docs)
 - [Discord Community](https://discord.gg/SsTWMYuyGG)
 - [ftagent on PyPI](https://pypi.org/project/ftagent/)
+
+## Get Started
+
+Start your free 14-day trial at [flowtriq.com/signup](https://flowtriq.com/signup).
 
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+---
+
+Built by [Flowtriq](https://flowtriq.com) - Real-time DDoS detection and mitigation.
